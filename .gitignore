@@ -1,0 +1,6 @@
+
+power-supply/power-supply-backups/
+
+*.kicad_sch-bak
+
+power-supply/fp-info-cache
