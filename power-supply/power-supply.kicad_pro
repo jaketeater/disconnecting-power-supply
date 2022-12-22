@@ -120,6 +120,7 @@
       },
       "track_widths": [
         0.0,
+        0.2,
         0.25,
         0.5
       ],
@@ -379,11 +380,35 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "power",
+        "name": "LED",
         "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.3,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "power",
+        "nets": [
+          "GND",
+          "Net-(BT1-Pad1)",
+          "Net-(C1-Pad2)",
+          "Net-(D1-Pad1)",
+          "Net-(Q1-Pad3)"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.8,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
@@ -398,12 +423,16 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "signal",
-        "nets": [],
+        "nets": [
+          "Net-(C1-Pad1)",
+          "Net-(J1-Pad1)",
+          "Net-(Q3-Pad1)"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.2,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
         "wire_width": 6.0
       }
     ],
