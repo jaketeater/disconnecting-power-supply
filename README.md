@@ -20,8 +20,12 @@ Next, program a micro controller to send a message when it is powered on. Then a
 
 ## How it works ##
 
+To understand how this circuit works, see [this video by Ralph S Bacon](https://www.youtube.com/watch?v=g1rbIG2BO0U) or [this blog post by Indrek Luuk](https://circuitjournal.com/arduino-auto-power-off). 
+
+The project adds an RC circuit to give the microcontroller time to boot, allowing for very short button presses to turn the power supply on. This allows, for example, for reed switches (like [this one from Adafruit](https://www.adafruit.com/product/2384) with a contact time of ~2ms) to be used.
+
 # Version Naming #
 
-<LED><AMPS>-<INPUT-VOLTAGE-MAX>-<INPUT-VOLTAGE-MIN>-<OUTPUT-VOLTAGE>
+`<AMPS>-<INPUT-VOLTAGE-MAX>-<INPUT-VOLTAGE-MIN>-<OUTPUT-VOLTAGE>-<LED>`
 
 
